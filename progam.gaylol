@@ -1,0 +1,23 @@
+using System;
+
+namespace e
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("What are you");
+            string input = Console.ReadLine();
+            
+            if (input == "gay")
+            {
+                Console.WriteLine("That is true");
+            }
+            else
+            {
+                Console.WriteLine("False, you are gay");
+            }
+            
+        }
+    }
+}
